@@ -8,5 +8,5 @@ currentYear = input("What is the current year? ")
 print(f"Hello, {name}!")
 print(f"I also enjoy {hobby}.")
 
-#Calculate the user's age using Python acceptable operations and display it.
+#Calculate the user's age using Python acceptable operations and display it as a value.
 print(f"You are {int(currentYear) - int(yearOfBirth)} years old.")
