@@ -5,7 +5,7 @@ print(f"Hello, {name}! Let's play Rock, Paper, Scissors.")
 
 choices = ['rock', 'paper', 'scissors']
 
-choice = input("Take your pick ((r)ock, (p)aper, or (s)cissors): ")
+choice = input("Take your pick (r)ock, (p)aper, or (s)cissors: ")
 
 winCountName = 0
 loseCountName = 0
