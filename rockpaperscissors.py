@@ -1,7 +1,7 @@
 import random
 
 name = input("Welcome Human! Tell me your name: ")
-print(f"Hello, {name}! Let's play Rock, Paper, Scissors.") 
+print(f"Hello, {name}! Let's play Rock, Paper, Scissors. Best of 5 wins!") 
 
 choices = ['rock', 'paper', 'scissors']
 
@@ -20,7 +20,7 @@ while winCountName < 3 and winCountComputer < 3:
 
     computer = random.choice(choices)
     
-    if choice == "r" or "R":
+    if choice.lower() == "r":
         if computer == "rock":
             print(f"Both players selected rock. It's a tie!")
             tieCountName += 1
@@ -36,7 +36,7 @@ while winCountName < 3 and winCountComputer < 3:
             loseCountName += 1
             winCountComputer += 1
 
-    elif choice == "p" or "P":
+    elif choice.lower() == "p":
         if computer == "paper":
             print(f"Both players selected paper. It's a tie!")
             tieCountName += 1
@@ -52,7 +52,7 @@ while winCountName < 3 and winCountComputer < 3:
             loseCountName += 1
             winCountComputer += 1
 
-    elif choice == "s" or "S":
+    elif choice.lower() == "s":
         if computer == "scissors":
             print(f"Both players selected scissors. It's a tie!")
             tieCountName += 1
