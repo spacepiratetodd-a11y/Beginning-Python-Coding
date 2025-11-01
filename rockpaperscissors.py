@@ -5,9 +5,7 @@ print(f"Hello, {name}! Let's play Rock, Paper, Scissors.")
 
 choices = ['rock', 'paper', 'scissors']
 
-choice = input("Take your pick - (r)ock, (p)aper, or (s)cissors: ")
 
-computer = random.choice(choices)
 
 winCountName = 0
 loseCountName = 0
@@ -18,6 +16,10 @@ loseCountComputer = 0
 tieCountComputer = 0
 
 while winCountName < 3 and winCountComputer < 3:
+    choice = input("Take your pick - (r)ock, (p)aper, or (s)cissors: ")
+
+    computer = random.choice(choices)
+    
     if choice == "r" or "R":
         if computer == "rock":
             print(f"Both players selected rock. It's a tie!")
