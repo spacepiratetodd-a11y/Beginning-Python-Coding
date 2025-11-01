@@ -5,8 +5,6 @@ print(f"Hello, {name}! Let's play Rock, Paper, Scissors. Best of 5 wins!")
 
 choices = ['rock', 'paper', 'scissors']
 
-
-
 winCountName = 0
 loseCountName = 0
 tieCountName = 0
