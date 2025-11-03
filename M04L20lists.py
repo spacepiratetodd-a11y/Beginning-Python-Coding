@@ -1,5 +1,4 @@
-for count in range('Basketball', 'Football', 'Baseball'):
-    print(count)
+sports = ['Basketball', 'Football', 'Baseball']
 print(sports)
 print(sports[0])  # prints Basketball
 print(len(sports))  # prints length of list

@@ -4,7 +4,7 @@ for count in range(100):
     print(count)
     #indent for code you want to repeat
 
-for count in range(a,z):
+for count in range(2,6):
     #will repeat 4 times, 2,3,4,5
     print(count)
 
